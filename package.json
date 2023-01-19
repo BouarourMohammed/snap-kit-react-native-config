@@ -1,0 +1,23 @@
+{
+  "name": "snap-kit-react-native-config",
+  "version": "0.0.1",
+  "description": "React Native Config for Snap Kit.",
+  "main": "build/SnapchatConfigPlugin.js",
+  "types": "build/SnapchatConfigPlugin.d.ts",
+  "files": [
+    "src",
+    "app.plugin.js",
+    "tsconfig.json"
+  ],
+  "devDependencies": {
+    "expo": "^47.0.0"
+  },
+  "peerDependencies": {
+    "expo": ">=47.0.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
+  }
+}
